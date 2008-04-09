@@ -3,7 +3,7 @@
 ########################################################################
 # Extension Manager/Repository config file for ext: "fdfx_2cols"
 #
-# Auto generated 09-04-2008 20:27
+# Auto generated 09-04-2008 20:43
 #
 # Manual updates:
 # Only the data in the array - anything else is removed by next write.
@@ -21,7 +21,7 @@ If you need more check for http://typo3.org/extensions/repository/search/fdfx_3c
 	'category' => 'fe',
 	'shy' => 0,
 	'version' => '2.3.0',
-	'dependencies' => '',
+	'dependencies' => 'cms,css_styled_content',
 	'conflicts' => '',
 	'priority' => '',
 	'loadOrder' => '',
@@ -49,7 +49,9 @@ If you need more check for http://typo3.org/extensions/repository/search/fdfx_3c
 		'suggests' => array(
 		),
 	),
-	'_md5_values_when_last_written' => 'a:14:{s:12:"ext_icon.gif";s:4:"f9a3";s:17:"ext_localconf.php";s:4:"4506";s:14:"ext_tables.php";s:4:"1963";s:14:"ext_tables.sql";s:4:"c41c";s:28:"ext_typoscript_constants.txt";s:4:"6edf";s:24:"ext_typoscript_setup.txt";s:4:"2d2c";s:16:"locallang_db.php";s:4:"71e3";s:20:"tpl.2column.div.html";s:4:"bb35";s:16:"tpl.2column.html";s:4:"5ad3";s:36:"doc/manual-fdfx_2cols-2005-03-04.sxw";s:4:"b361";s:19:"doc/wizard_form.dat";s:4:"24f5";s:20:"doc/wizard_form.html";s:4:"ec44";s:30:"pi1/class.tx_fdfx2cols_pi1.php";s:4:"a3c7";s:17:"pi1/locallang.php";s:4:"77d5";}',
+	'_md5_values_when_last_written' => 'a:13:{s:12:"ext_icon.gif";s:4:"f9a3";s:17:"ext_localconf.php";s:4:"4506";s:14:"ext_tables.php";s:4:"1963";s:14:"ext_tables.sql";s:4:"c41c";s:28:"ext_typoscript_constants.txt";s:4:"6edf";s:24:"ext_typoscript_setup.txt";s:4:"2d2c";s:16:"locallang_db.php";s:4:"71e3";s:20:"tpl.2column.div.html";s:4:"bb35";s:16:"tpl.2column.html";s:4:"5ad3";s:14:"doc/manual.sxw";s:4:"b361";s:19:"doc/wizard_form.dat";s:4:"24f5";s:20:"doc/wizard_form.html";s:4:"ec44";s:30:"pi1/class.tx_fdfx2cols_pi1.php";s:4:"9ced";}',
+	'suggests' => array(
+	),
 );
 
 ?>
