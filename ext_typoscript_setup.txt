@@ -1,0 +1,188 @@
+plugin.tx_fdfx2cols_pi1{
+    _CSS_DEFAULT_STYLE (
+/*  Layout 1 */
+.c2l1-left{
+   border-right: 1px solid #FFEDA8;
+   padding-right: 5px;
+   width:50%;
+   white-space:normal;
+   vertical-align:top;
+}
+.c2l1-middle{
+   padding-left: 5px;
+   width:50%;
+   white-space:normal;
+   vertical-align:top;
+}
+/*  Layout 2 */
+.c2l2-left{
+   border-right: 1px solid #FFEDA8;
+   padding-right: 5px;
+   width:50%;
+   white-space:normal;
+   vertical-align:top;
+}
+.c2l2-middle{
+   background-color:#FFEDA8;
+   padding-left: 5px;
+   width:50%;
+   white-space:normal;
+}
+/* Layout 2 */
+.c2l3-left{
+   border-right: 1px solid #FFEDA8;
+   padding-right: 5px;
+   width:70%;
+   white-space:normal;
+   vertical-align:top;
+}
+.c2l3-middle{
+   background-color:#FFEDA8;
+   border: 1px solid blue;
+   padding-left: 5px;
+   width:30%;
+   white-space:normal;
+   vertical-align:top;
+}
+/*
+	Styles 2 Column DIV Section
+*/
+div.tx-fdfx2cols-pi1{
+    position:relative;
+    left:0px;
+	margin-bottom:10px;
+	width:770px;
+}
+/* Layout 1 */
+div.c2l1d-left{
+   float: left;
+   left:0px;
+   padding: 0px;
+   width:380px;
+   white-space:normal;
+   border:1px solid red;
+   height:auto;
+}
+div.c2l1d-middle{
+	float:left;
+   padding: 0px;
+   width:380px;
+   border:1px solid blue;
+   white-space:normal;
+}
+.clearAll {
+	clear:both;
+}
+/* Layout 2 */
+div.c2l2d-left{
+   float:left;
+   left:0px;
+   padding: 0px;
+   width:380px;
+   border:1px solid blue;
+   white-space:normal;
+}
+div.c2l2d-middle{
+   float:left;
+   padding: 0px;
+   width:380px;
+   white-space:normal;
+   border:1px solid blue;
+   background-color:#C0C0C0;
+}
+/*
+	Layout 3
+
+	embedded
+*/
+div.c2l3d-left{
+   position:relative;
+   left:0px;
+   padding: 0px;
+   width:770px;
+   white-space:normal;
+   border:1px solid red;
+}
+div.c2l3d-middle{
+   float:right;
+   margin:5px;
+   padding: 0px;
+   width: 200px;
+   overflow:auto;
+   white-space:normal;
+   border:1px solid blue;
+   background-color:#C0C0C0;
+}
+)
+    templateFile = {$plugin.tx_fdfx2cols_pi1.TEMPLATE_FILE}
+    divHeight = {$plugin.tx_fdfx2cols_pi1.DIV_HEIGHT}
+    parser < tt_content.text.20.parseFunc
+    stdWrap = 1
+    stdWrap < tt_content.stdWrap
+#
+# new since version 3.0.
+#
+	renderMapping = 1
+	renderMapping {
+		# first value is value of tx_fdfx2cols_order pointing to address in renderObj
+		# within that we point to normal (column =right) in TYPO3 way: 0
+		# and to left column: 1
+		0 = 10
+		0 {
+			0 = 20
+			1 = 10
+		}
+		1 = 20
+		1 {
+			0 = 20
+			1 = 10
+		}
+	}
+	renderObj=COA
+	renderObj {
+		#Text-TextPic
+		10 = COA
+		10 {
+			#1. column / left: TEXT object
+			10 < tt_content.text.20
+			10.field=tx_fdfx2cols_leftcolumn
+			#2. column / right: TEXTPIC object
+			20 < tt_content.image.20
+			#remove header
+			20.text.10 >
+			20.text < tt_content.textpic.20.text
+		}
+		#TextPic-Text
+		20 =COA
+		20 {
+			#1. column / left: TEXTPIC object
+			10 < tt_content.image.20
+			10.text < tt_content.textpic.20.text
+			#remove header
+			10.text.10 >
+			10.text.20.field=tx_fdfx2cols_leftcolumn
+			#2. column / right: TEXT object
+			20 < tt_content.text.20
+		}
+	}
+}
+tt_content.fdfx_2cols_pi1 = COA
+tt_content.fdfx_2cols_pi1 {
+	10 = < lib.stdheader
+	10.stdWrap.dataWrap=<p class="csc-fdfx_2cols_pi1-header csc-fdfx_2cols_pi1-header-{field:layout}">|</p>
+	15=TEXT
+	15{
+		field = subheader
+		required = 1
+
+		dataWrap = <p class="csc-fdfx_2cols_pi1-subheader csc-fdfx_2cols_pi1-subheader-{field:layout}">|</p>
+		htmlSpecialChars = 1
+
+		editIcons = tt_content:subheader,layout
+		editIcons.beforeLastTag = 1
+		editIcons.iconTitle.data = LLL:EXT:css_styled_content/pi1/locallang.php:eIcon.subheader
+
+		prefixComment = 2 | Subheader:
+	}
+	20 = < plugin.tx_fdfx2cols_pi1
+}

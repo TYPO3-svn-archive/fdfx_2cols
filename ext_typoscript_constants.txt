@@ -1,0 +1,6 @@
+plugin.tx_fdfx2cols_pi1{
+    # cat=tx_fdfx2cols_pi1//; type=text; label= Template: Path and Name to Template (default: EXT:fdfx_2cols/tpl.2column.html)
+    TEMPLATE_FILE=EXT:fdfx_2cols/res/tpl.2column.html
+    # cat=tx_fdfx2cols_pi1//; type=text; label= Name for Div-Height Property: (default: ###DIV_HEIGHT###)
+    DIV_HEIGHT=###DIV_HEIGHT###
+}

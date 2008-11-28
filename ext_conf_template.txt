@@ -1,0 +1,6 @@
+ # cat=basic/enable/120; type=boolean; label= Do use Tab-Dividers: Here you can disable the "dividers2tabs" feature (TYPO3 >= 4.2.0). "Dividers to Tabs" means: the BE form in tt_content/fdfx_2cols is divided in tab sections. If you want this, set this value to 1.
+tabDividers = 0
+ # cat=basic/enable/130; type=boolean; label= Enable TextPic: By default both columns use TEXT/TEXT for rendering. If you want to use images (TEXTPIC) for ONE column you have to enable this. If you want this, set this value to 1.
+textPic = 0
+ # cat=basic/enable/140; type=boolean; label= Enable DivHeight: By default the height of the div can be set. But if the design is ok and modern you can turn that off. If you have modern design, set this value to 0.
+divHeight = 1

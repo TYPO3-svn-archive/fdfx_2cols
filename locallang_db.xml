@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description></description>
+		<type></type>
+		<csh_table></csh_table>
+		<labelContext type="array">
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.tx_fdfx2cols_leftcolumn">Left Column:</label>
+			<label index="tt_content.bodytext">Middle Column:</label>
+			<label index="tx_fdfx3cols_rightcolumn">Right Column:</label>
+			<label index="tt_content.tx_fdfx2cols_type.I.0">Layout 1</label>
+			<label index="tt_content.tx_fdfx2cols_type.I.1">Layout 2</label>
+			<label index="tt_content.tx_fdfx2cols_type.I.2">Layout 3</label>
+			<label index="tt_content.tx_fdfx2cols_type">Layout:</label>
+			<label index="tt_content.tx_fdfx2cols_order">Order:</label>
+			<label index="tt_content.tx_fdfx2cols_order.I.0">normal</label>
+			<label index="tt_content.tx_fdfx2cols_order.I.1">left/text changed</label>
+			<label index="tt_content.tx_fdfx2cols_order.textPic.0">Text-Text/Image</label>
+			<label index="tt_content.tx_fdfx2cols_order.textPic.1">Text/Image-Text</label>
+			<label index="tt_content.CType_pi1">2 Column (4D f/x)</label>
+			<label index="tt_content.tx_fdfx2cols_height">Column height</label>
+			<label index="tt_content.fdfx_2cols_generalTab">Type/Settings</label>
+			<label index="tt_content.fdfx_2cols_headerTab">Header</label>
+			<label index="tt_content.fdfx_2cols_columnTab">1. Column</label>
+			<label index="tt_content.fdfx_2cols_imageTab">Images</label>
+			<label index="tt_content.fdfx_2cols_textTab">2. Column</label>
+			<label index="tt_content.fdfx_2cols_finalTab">Access</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tt_content.tx_fdfx2cols_leftcolumn">linke Spalte:</label>
+			<label index="tt_content.bodytext">mittlere Spalte:</label>
+			<label index="tx_fdfx3cols_rightcolumn">rechte Spalte</label>
+			<label index="tt_content.tx_fdfx2cols_type.I.0">Layout 1</label>
+			<label index="tt_content.tx_fdfx2cols_type.I.1">Layout 2</label>
+			<label index="tt_content.tx_fdfx2cols_type.I.2">Layout 3</label>
+			<label index="tt_content.tx_fdfx2cols_type">Layout:</label>
+			<label index="tt_content.tx_fdfx2cols_order">Reihenfolge:</label>
+			<label index="tt_content.tx_fdfx2cols_order.I.0">normal</label>
+			<label index="tt_content.tx_fdfx2cols_order.I.1">getauscht</label>
+			<label index="tt_content.tx_fdfx2cols_order.textPic.0">Text - Text/Bild(er)</label>
+			<label index="tt_content.tx_fdfx2cols_order.textPic.1">Text/Bild(er) - Text</label>
+			<label index="tt_content.CType_pi1">2 Spalten (4D f/x)</label>
+			<label index="tt_content.tx_fdfx2cols_height">Spaltenhöhe</label>
+			<label index="tt_content.fdfx_2cols_generalTab">Typ/Layout</label>
+			<label index="tt_content.fdfx_2cols_headerTab">Überschrift</label>
+			<label index="tt_content.fdfx_2cols_columnTab">1. Spalte</label>
+			<label index="tt_content.fdfx_2cols_imageTab">Bilder</label>
+			<label index="tt_content.fdfx_2cols_textTab">2. Spalte</label>
+			<label index="tt_content.fdfx_2cols_finalTab">Zugriff</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="de" type="array">
+			<label index="tt_content.tx_fdfx2cols_leftcolumn" type="integer">73296314</label>
+			<label index="tt_content.bodytext" type="integer">93278440</label>
+			<label index="tx_fdfx3cols_rightcolumn" type="integer">105632331</label>
+			<label index="tt_content.tx_fdfx2cols_type.I.0" type="integer">186159068</label>
+			<label index="tt_content.tx_fdfx2cols_type.I.1" type="integer">144093188</label>
+			<label index="tt_content.tx_fdfx2cols_type.I.2" type="integer">85298801</label>
+			<label index="tt_content.tx_fdfx2cols_type" type="integer">229574886</label>
+			<label index="tt_content.tx_fdfx2cols_order" type="integer">46808555</label>
+			<label index="tt_content.tx_fdfx2cols_order.I.0" type="integer">266995829</label>
+			<label index="tt_content.tx_fdfx2cols_order.I.1" type="integer">230622604</label>
+			<label index="tt_content.CType_pi1" type="integer">170160981</label>
+			<label index="tt_content.tx_fdfx2cols_height" type="integer">49844428</label>
+			<label index="tt_content.fdfx_2cols_generalTab" type="integer">104791030</label>
+			<label index="tt_content.fdfx_2cols_headerTab" type="integer">200609118</label>
+			<label index="tt_content.fdfx_2cols_columnTab" type="integer">165325233</label>
+			<label index="tt_content.fdfx_2cols_imageTab" type="integer">268373344</label>
+			<label index="tt_content.fdfx_2cols_textTab" type="integer">44855927</label>
+			<label index="tt_content.fdfx_2cols_finalTab" type="integer">200750040</label>
+			<label index="tt_content.tx_fdfx2cols_order.textPic.0" type="integer">28683277</label>
+			<label index="tt_content.tx_fdfx2cols_order.textPic.1" type="integer">78277124</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="de" type="array">
+			<label index="tt_content.tx_fdfx2cols_leftcolumn">Left Column:</label>
+			<label index="tt_content.bodytext">Middle Column:</label>
+			<label index="tx_fdfx3cols_rightcolumn">Right Column:</label>
+			<label index="tt_content.tx_fdfx2cols_type.I.0">Layout 1</label>
+			<label index="tt_content.tx_fdfx2cols_type.I.1">Layout 2</label>
+			<label index="tt_content.tx_fdfx2cols_type.I.2">Layout 3</label>
+			<label index="tt_content.tx_fdfx2cols_type">Layout:</label>
+			<label index="tt_content.tx_fdfx2cols_order">Order:</label>
+			<label index="tt_content.tx_fdfx2cols_order.I.0">normal</label>
+			<label index="tt_content.tx_fdfx2cols_order.I.1">left/text changed</label>
+			<label index="tt_content.CType_pi1">2 Column (4D f/x)</label>
+			<label index="tt_content.tx_fdfx2cols_height">Column height</label>
+			<label index="tt_content.fdfx_2cols_generalTab">Type/Settings</label>
+			<label index="tt_content.fdfx_2cols_headerTab">Header</label>
+			<label index="tt_content.fdfx_2cols_columnTab">1. Column</label>
+			<label index="tt_content.fdfx_2cols_imageTab">Images</label>
+			<label index="tt_content.fdfx_2cols_textTab">2. Column</label>
+			<label index="tt_content.fdfx_2cols_finalTab">Access</label>
+			<label index="tt_content.tx_fdfx2cols_order.textPic.0">Text-Text/Image</label>
+			<label index="tt_content.tx_fdfx2cols_order.textPic.1">Text/Image-Text</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

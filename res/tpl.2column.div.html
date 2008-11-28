@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+	</head>
+	<body bgcolor="#ffffff">
+		<h3>Template file for the &quot;fdfx_2cols&quot; extension.</h3>
+		<p>There a three different layouts available. Each of them can be modified
+		in this template.</p>
+		<p><b>Available Markers:</b></p>
+		<ul>
+			<li>###HEADER###</li>
+			<li>###SUBHEADER###</li>
+			<li>###CONTENT_LEFT###</li>
+			<li>###CONTENT_MIDDLE###</li>
+		</ul>
+		<h4>Layout 1 DIV</h4>
+		<!-- ###TEMPLATE_0### begin -->
+		<div class="c2l1d-left">
+			###CONTENT_LEFT###
+		</div>
+		<div class="c2l1d-middle">
+			###CONTENT_MIDDLE###
+		</div>
+		<span class="clearAll" ></span>
+		<!-- ###TEMPLATE_0### end -->
+
+		<h4>Layout 2 DIV </h4>
+		<!-- ###TEMPLATE_1### begin -->
+		<div class="c2l2d-left">
+			###CONTENT_LEFT###
+		</div>
+		<div class="c2l2d-middle">
+			###CONTENT_MIDDLE###
+		</div>
+		<span class="clearAll" ></span>
+		<!-- ###TEMPLATE_1### end -->
+
+		<h4>Layout 3 DIV</h4>
+		<!-- ###TEMPLATE_2### begin -->
+		<div class="c2l3d-left">
+			<div class="c2l3d-middle">
+				###CONTENT_MIDDLE###
+			</div>
+			###CONTENT_LEFT###
+		</div>
+		<span class="clearAll" ></span>
+		<!-- ###TEMPLATE_2### end -->
+	</body>
+</html>
